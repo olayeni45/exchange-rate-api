@@ -14,4 +14,8 @@ const GetRate = async (req, res) => {
     }
 }
 
-export default { GetRate }
+const Welcome = (req, res) => {
+    res.status(200).json({message: "Welcome to Exchange rate API"})
+}
+
+export default { GetRate, Welcome }
