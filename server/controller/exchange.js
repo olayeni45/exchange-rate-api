@@ -1,5 +1,6 @@
 import ExchangeCurrency from '../services/exchange.js'
 
+//Exchange rate controller
 const GetRate = async (req, res) => {
     const currency1 = req.body.currency1
     const currency2 = req.body.currency2
